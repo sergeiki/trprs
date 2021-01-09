@@ -11,11 +11,13 @@
 
 ## Installation
 
-composer create-project symfony/skeleton trpr-symfony
+composer create-project symfony/skeleton trpr-project
+
+cd trpr-project
 
 composer req sergeiki/trprs
 
-### Instead a recipe manually copy from vendor/sergeiki/trprs/
+### Instead a recipe manually copy from vendor/sergeiki/trprs
 
 src/Command/* to src/Command
 
