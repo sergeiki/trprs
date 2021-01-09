@@ -31,7 +31,7 @@ class TransportationProblemCommand extends Command
     {
         $this
             ->setDescription('Decisions a transportation problem')
-            ->addArgument('arg1', InputArgument::OPTIONAL, 'The input data csv-file with  a tab delimiter')
+            ->addArgument('arg1', InputArgument::OPTIONAL, 'The input data csv-file with a tab delimiter')
             ->addOption('oc', 'o', InputOption::VALUE_REQUIRED, 'Optimality criterion: min or max', 'min')
         ;
     }
