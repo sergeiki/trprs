@@ -1,0 +1,22 @@
+{
+    "name": "sergeiki/trprs",
+    "description": "Symfony console command using the library decisions a transportation problem",
+    "type": "symfony-bundle",
+    "keywords": ["transportation-problem"],
+    "license": "MIT",
+    "require": {
+        "sergeiki/trpr": "^0.1.0",
+        "symfony/console": "^5.2"
+    },
+    "authors": [
+        {
+            "name": "Serhii Kirichenko",
+            "email": "sergei.ksmith@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "sergeiki\\trpr\\": "src/"
+        }
+    }
+}
