@@ -14,9 +14,4 @@
             "email": "sergei.ksmith@gmail.com"
         }
     ],
-    "autoload": {
-        "psr-4": {
-            "sergeiki\\trpr\\": "src/"
-        }
-    }
 }
